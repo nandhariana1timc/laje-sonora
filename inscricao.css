@@ -188,3 +188,31 @@ h1, h2, h3 {
     align-items: center;
     gap: 8px;
 }
+
+.campo input,
+.campo select,
+.campo textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid var(--concreto-escuro);
+    background-color: var(--concreto);
+    font-family: var(--fonte-texto);
+    font-size: 15px;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+    border-color: var(--tinta);
+    outline: none;
+}
+
+.campo textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+label,
+legend {
+    font-weight: 700;
+}
